@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "b" { #is used for Terraform 
-  bucket = "my_tf_test_bucket_chyngyzkan" #an actual name
+  bucket = "my-tf-test-bucket-chyngyzkan" #an actual name
   acl    = "private"
   #region = "us-east-2" 
 
