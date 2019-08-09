@@ -2,19 +2,19 @@ output "key_name" { #for Terraform
   value = "${aws_key_pair.Terraform_machine.key_name}" #will show after aplying public_key, to avoid it add one more option
 }
 
-output "bucketname" {
+output "bucket_name" {
   value = "${aws_s3_bucket.b.bucket}" 
 }
 
-output "ID" {
+output "ID_of_instance" {
   value = "${aws_instance.test_ec2.id}"
 }
 
-output "public_IP" {
-  value = "${aws_instance.test_ec2.public_ip}" #
+output "its_public_IP" {
+  value = "${aws_instance.test_ec2.public_ip}" # 
 }
 
-output "username" {
+output "its_username" {
   value = "ec-user" #hardcoded, any text can be written like ec2-user and it'll be showen
 }
 
