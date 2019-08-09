@@ -1,4 +1,4 @@
-output "key_name" { #for Terraform 
+output "key_name_it_uses" { #for Terraform 
   value = "${aws_key_pair.Terraform_machine.key_name}" #will show after aplying public_key, to avoid it add one more option
 }
 
@@ -6,7 +6,7 @@ output "bucket_name" {
   value = "${aws_s3_bucket.b.bucket}" 
 }
 
-output "ID_of_instance" {
+output "ID_of_an_instance" {
   value = "${aws_instance.test_ec2.id}"
 }
 
