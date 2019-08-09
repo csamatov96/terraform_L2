@@ -10,7 +10,7 @@ output "ID" {
   value = "${aws_instance.test_ec2.id}"
 }
 
-output "public IP" {
+output "public_IP" {
   value = "${aws_instance.test_ec2.public_ip}" #
 }
 
