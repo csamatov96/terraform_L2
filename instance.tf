@@ -7,10 +7,9 @@ resource "aws_instance" "test_ec2" {
     #count = "2"
 
     tags = {
-        Name = "test_env"
-        Dept = "DevOps"
-        Group = "April"
-        Created_by = "JC"
+        Name = "${var.ENV}"
+        Dept = "${var.Dept}"
+        Created_by = "${var.Created_by}"
     }
 
 }
