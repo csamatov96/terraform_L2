@@ -15,7 +15,7 @@ output "its_public_IP" {
 }
 
 output "its_username" {
-  value = "ec-user" #hardcoded, any text can be written like ec2-user and it'll be showen
+  value = "ec2-user" #hardcoded, any text can be written like ec2-user and it'll be showen
 }
 
 
