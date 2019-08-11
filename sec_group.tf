@@ -1,6 +1,6 @@
 resource "aws_security_group" "my_custom_sec_group" { #
   name        = "my_custom_sec_group" #
-  description = "Allow SSH traffic" #
+  description = "Allow SSH / HTTP traffic" #
   vpc_id      = "vpc-e0d5318b" #
 
   ingress { #IN

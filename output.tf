@@ -1,5 +1,5 @@
 output "key_name_it_uses" { #for Terraform 
-  value = "${aws_key_pair.Terraform_machine.key_name}" #will show after aplying public_key, to avoid it add one more option
+  value = "${aws_key_pair.Terraform_machine.key_name}" #will show after aplying its public_key, to avoid that added one more option
 }
 
 output "bucket_name" {
