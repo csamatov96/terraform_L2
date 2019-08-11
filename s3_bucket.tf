@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "b" { #is used for Terraform 
-  bucket = "terraform-state-storage-chyngyzkan1" #variable can't be used
+  bucket = "terraform-state-storage-chyngyzkan" #variable can't be used
   acl    = "private"
   #region = "us-east-2" 
 
