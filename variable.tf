@@ -9,6 +9,6 @@ variable "ENV" {}
 variable "Dept" {}
 variable "Created_by" {}
 
-variable "bucket" {}
+
 
 
