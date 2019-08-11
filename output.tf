@@ -19,7 +19,7 @@ output "its_public_IP" {
 }
 
 output "sec_group" {
-  value = "${aws_security_group.my_custom_sec_group.description}"
+  value = "${aws_security_group.my_custom_sec_group.}"
 }
 
 
