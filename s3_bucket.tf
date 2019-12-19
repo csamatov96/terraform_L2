@@ -1,11 +1,11 @@
-resource "aws_s3_bucket" "b" { #is used for Terraform 
-  bucket = "terraform-state-storage-chyngyzkan" #variable can't be used
-  acl    = "private"
+#resource "aws_s3_bucket" "b" { #is used for Terraform 
+#  bucket = "terraform-state-storage-chyngyzkan" #variable can't be used
+#  acl    = "private"
   #region = "us-east-2" 
 
-  tags = {
-    Name = "${var.ENV}"
-        Dept = "${var.Dept}"
-        Created_by = "${var.Created_by}"
-    }
+ # tags = {
+ #   Name = "${var.ENV}"
+ ##       Dept = "${var.Dept}"
+    #    Created_by = "${var.Created_by}"
+   # }
 }
